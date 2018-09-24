@@ -4,7 +4,7 @@ Require Rust installed on your system (including rustc/cargo/rustup)
 Make sure your Cargo configured properly for Android before compile.  
 
 
-##cargo/rustup config
+## Cargo/rustup config
   
 Please use make_standalone_toolchain.py to create your own standalone versions of the NDK  
   
