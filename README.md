@@ -5,15 +5,17 @@ Make sure your Cargo configured properly for Android before compile.
 
 
 ##cargo/rustup config
-
+  
+Please use make_standalone_toolchain.py to create your own standalone versions of the NDK  
+  
 [target.aarch64-linux-android]  
 ar = "PATH_TO_YOUR_STANDALONE_NDK/arm64/bin/aarch64-linux-android-ar"  
 linker = "PATH_TO_YOUR_STANDALONE_NDK/arm64/bin/aarch64-linux-android-clang"  
-
+  
 [target.armv7-linux-androideabi]  
 ar = "PATH_TO_YOUR_STANDALONE_NDK/arm/bin/arm-linux-androideabi-ar"  
 linker = "PATH_TO_YOUR_STANDALONE_NDK/arm/bin/arm-linux-androideabi-clang"  
-
+  
 [target.i686-linux-android]  
 ar = "PATH_TO_YOUR_STANDALONE_NDK/x86/bin/i686-linux-android-ar"  
 linker = "PATH_TO_YOUR_STANDALONE_NDK/x86/bin/i686-linux-android-clang"  
